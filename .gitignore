@@ -1,0 +1,12 @@
+# Compiled files
+*.o
+*.out
+*.exe
+a.out
+start
+*.bin
+
+# VS Code / editor
+.vscode/
+*.swp
+*~
