@@ -4,7 +4,7 @@
 int main(){
     srand(time(NULL));
     int number = (rand()%100)+1;
-    int a;
+    int a,b=1;
     printf("Enter your guess\n");
     scanf("%d",&a);
     while (a!=number)
@@ -18,8 +18,8 @@ int main(){
     {
         printf("Go higher\n");
          scanf("%d",&a);
-    }
+    }b++;
 }
-printf("Congrats, you guessed it!\n");
+printf("Congrats, you guessed it in %d tries!\n",b);
     return 0;
 }
