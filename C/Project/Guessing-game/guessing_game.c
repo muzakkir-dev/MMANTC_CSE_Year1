@@ -1,3 +1,4 @@
+/*Write a complete C program to implement a user-interactive Number Guessing Game.*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
