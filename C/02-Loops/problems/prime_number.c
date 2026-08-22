@@ -1,4 +1,6 @@
-    #include<stdio.h>
+/*Write a complete, user-interactive C program to check whether a given integer is a prime number.*/
+
+#include<stdio.h>
 
     int main(){
         int n;
