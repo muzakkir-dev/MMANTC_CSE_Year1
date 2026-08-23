@@ -3,5 +3,5 @@
 int main(void){         // it is what is going to be run so basically the main block of code
    string name = get_string("What is your name? "); 
         printf("Hello, %s\n",name); // Output: It gives Hello, (name) 
-    return 0;
+    return 0;                       
 }
